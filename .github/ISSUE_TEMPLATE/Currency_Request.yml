@@ -3,7 +3,7 @@ title: "[Currency_Req]: "
 description: "Request to add support for any package with specific version on ppc64le"
 labels: "enhancement"
 projects: "nikhil-kalbande/3"
-assignees: "ICH"
+assignees: "nikhil-kalbande"
 body:
   - type: markdown
     attributes:
