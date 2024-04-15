@@ -2,7 +2,7 @@ name: Feedback for Currency Dashboard
 title: Feedback
 description: "Feedback or Bug report for currency dashboard"
 labels: "bug"
-projects: "Currency_Tracker"
+projects: "Currency"
 assignees: "ICH"
 body:
   - type: markdown
