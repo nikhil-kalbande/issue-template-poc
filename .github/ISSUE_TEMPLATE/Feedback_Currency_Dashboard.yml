@@ -3,7 +3,7 @@ title: "[Feedback]:"
 description: "Feedback for currency dashboard"
 labels: "feedback"
 projects: "nikhil-kalbande/3"
-assignees: "ICH"
+assignees: "nikhil-kalbande"
 body:
   - type: markdown
     attributes:
