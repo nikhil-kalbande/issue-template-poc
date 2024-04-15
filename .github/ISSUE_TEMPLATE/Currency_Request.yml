@@ -2,7 +2,7 @@ name: Currency Request
 title: "Currency_Req:"
 description: "Request to add support for any package with specific version on ppc64le"
 labels: "enhancement"
-projects: "github/3"
+projects: "nikhil-kalbande/3"
 assignees: "ICH"
 body:
   - type: markdown
