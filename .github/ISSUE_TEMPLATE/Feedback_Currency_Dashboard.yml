@@ -1,6 +1,6 @@
 name: Feedback for Currency Dashboard
 title: "[Feedback]:"
-description: "Feedback or Bug report for currency dashboard"
+description: "Feedback for currency dashboard"
 labels: "feedback"
 projects: "nikhil-kalbande/3"
 assignees: "ICH"
@@ -8,8 +8,7 @@ body:
   - type: markdown
     attributes:
       value: >
-        Github is reserved for bug or feedback reports for Currency Dashboard. Also to request currency for any package or report currency issues for any package.
-        Please fill in the following details to provide feedback for Currency Dashboard.
+        Please fill in the following details to provide feedback or your suggstion for Currency Dashboard.
   - type: input
     id: dashboard_version
     attributes:
@@ -22,14 +21,6 @@ body:
     id: feedback
     attributes:
       label: Feedback Details
-      description: A description of the problem or feedback on Currency Dashboard usage. Please provide screenshots if possible
+      description: A feedback on current Currency Dashboard and any suggestions to make it better.
     validations:
       required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to Reproduce
-      description: |
-        Steps to reporduce issue if you are reporting any bug in feedback
-    validations:
-      required: false
