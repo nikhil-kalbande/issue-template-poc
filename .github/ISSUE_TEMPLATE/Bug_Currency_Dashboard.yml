@@ -19,6 +19,8 @@ body:
         - v0.5
         - v0.6
         - v1.0
+      default:
+        - v0.5
       description: |
         The version of Currency Dashboard on which you see behavior or registering your feedback for dashboard.
     validations:
