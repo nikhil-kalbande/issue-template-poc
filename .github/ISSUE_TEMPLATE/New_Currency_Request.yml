@@ -1,6 +1,6 @@
-name: Currency Request
+name: New Currency Request
 title: "[Currency_Req]: "
-description: "Request to add support for any new package with specific version on ppc64le"
+description: "Request to add currency for any new package with specific version on ppc64le"
 labels: "new currency"
 projects: "nikhil-kalbande/3"
 assignees: "nikhil-kalbande"
