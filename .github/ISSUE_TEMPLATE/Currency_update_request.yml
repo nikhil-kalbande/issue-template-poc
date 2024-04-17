@@ -1,6 +1,6 @@
 name: Currency Update Request
 title: "[Currency_Update]: "
-description: "Update request to add support for any specific version on ppc64le for available currency package Or "
+description: "Update request to add support for specific version on ppc64le for available currency package Or fix currency "
 labels: "update currency"
 projects: "nikhil-kalbande/3"
 assignees: "nikhil-kalbande"
