@@ -2,15 +2,13 @@ name: New Currency Request
 title: "[Currency_Req]: "
 description: "Request to add currency for any new package with specific version on ppc64le"
 labels: "new currency"
-projects: "nikhil-kalbande/3"
-assignees: "nikhil-kalbande"
+projects: "ppc64le/1"
+assignees: "ICH"
 body:
   - type: markdown
     attributes:
       value: >
-        Github is reserved for bug reports and feature requests; it is
-        not the place for general questions. 
-        Please fill in the following details to request Currency for a package:
+        Please complete the following fields to request currency for new package.
   - type: input
     id: pkg_name
     attributes:
@@ -31,5 +29,17 @@ body:
     attributes:
       label: GitHub Repo url
       description: The GitHub source url of package
+    validations:
+      required: true
+  - type: dropdown
+    id: desired_packaging
+    attributes:
+      label: Desired packaging 
+      options:
+        - build script only
+        - container only
+        - build script and container both
+      description: |
+        Please provide details on desired packaging. You need build script or container for package.
     validations:
       required: true
